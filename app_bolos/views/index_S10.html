@@ -1,0 +1,42 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bowling Semana 9 - IG-EII-ULPGC</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+        
+    
+    <h1 id="title" class="titles" style="display: none;"> Pick a Lane </h1>
+    <h1 id="playerChangeWarning" class="titles" style="display: none;"> Next Player's Turn </h1>
+    <button id="lane1" class="overlay-button" style="display: none;">Lane 1</button>
+    <button id="lane2" class="overlay-button" style="display: none;">Lane 2</button>
+    <button id="lane3" class="overlay-button" style="display: none;">Lane 3</button>
+    <button id="lane4" class="overlay-button" style="display: none;">Lane 4</button>
+    <button id="lane5" class="overlay-button" style="display: none;">Lane 5</button>
+    <button id="back" class="overlay-button" style="display: none;">Back</button>
+    <button id="blueBallButton" class="ball-button blue" style="display: none;">Blue Ball<br>Small and Light</button>
+    <button id="redBallButton" class="ball-button red" style="display: none;">Red Ball<br>Medium Size</button>
+    <button id="greenBallButton" class="ball-button green" style="display: none;"  >Green Ball<br>Large and Heavy</button>
+    <button id="throwButton" class="overlay-button" style="display: none;">Throw</button>
+    <button id="endButton" class="overlay-button" style="display: none;">End</button>
+  
+    <!--Para animación S10''-->    
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.152.1/build/three.module.js",  
+          "three/": "https://cdn.skypack.dev/three@0.152.1/",
+				  "three/addons/": "./jsm/"
+        }
+      }
+    </script>
+    
+    <script src="./ammo.js"></script>
+    <script src="/script_bolos.js"  type="module"></script>        
+  </body>
+</html>
