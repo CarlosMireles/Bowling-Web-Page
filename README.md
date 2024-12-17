@@ -27,3 +27,6 @@ Juego interactivo que permite disfrutar de una experiencia de bolos en 3D, simul
 - **`index_S10.html`**: Archivo principal que carga la interfaz del juego y los recursos necesarios.
 - **`style.css`**: Hoja de estilos que define el diseño visual, incluyendo los botones y títulos interactivos.
 - **`script_bolos.js`**: Lógica del juego, que maneja la física, la renderización en 3D y las interacciones del usuario.
+
+## Descripción de los Archivos
+![Video Ejemplo](/practica_animacion.gif)
